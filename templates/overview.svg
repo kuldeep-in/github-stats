@@ -16,9 +16,14 @@ svg {
   ry: 6px;
 }
 
-#gh-dark-mode-only:target #background {
+#kd-dark-mode-01:target #background {
   fill: #0d1117;
   stroke-width: 0.5px;
+}
+
+#kd-dark-mode-02:target #background {
+  fill: #1d3658;
+  stroke-width: 0;
 }
 
 foreignObject {
@@ -41,7 +46,10 @@ th {
   color: rgb(3, 102, 214);
 }
 
-#gh-dark-mode-only:target th {
+#kd-dark-mode-01:target th {
+  color: #58a6ff;
+}
+#kd-dark-mode-02:target th {
   color: #58a6ff;
 }
 
@@ -54,7 +62,10 @@ td {
   color: rgb(88, 96, 105);
 }
 
-#gh-dark-mode-only:target td {
+#kd-dark-mode-01:target td {
+  color: #c9d1d9;
+}
+#kd-dark-mode-02:target td {
   color: #c9d1d9;
 }
 
@@ -69,7 +80,10 @@ tr {
   vertical-align: top;
 }
 
-#gh-dark-mode-only:target .octicon {
+#kd-dark-mode-01:target .octicon {
+  fill: #8b949e;
+}
+#kd-dark-mode-02:target .octicon {
   fill: #8b949e;
 }
 
