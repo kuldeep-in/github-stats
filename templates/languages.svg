@@ -16,9 +16,13 @@ svg {
   ry: 6px;
 }
 
-#gh-dark-mode-only:target #background {
+#kd-dark-mode-01:target #background {
   fill: #0d1117;
   stroke-width: 0.5px;
+}
+#kd-dark-mode-02:target #background {
+  fill: #1d3658;
+  stroke-width: 0;
 }
 
 foreignObject {
@@ -36,7 +40,11 @@ h2 {
   fill: rgb(36, 41, 46);
 }
 
-#gh-dark-mode-only:target h2 {
+#kd-dark-mode-01:target h2 {
+  color: #c9d1d9;
+  fill: #c9d1d9;
+}
+#kd-dark-mode-02:target h2 {
   color: #c9d1d9;
   fill: #c9d1d9;
 }
@@ -76,7 +84,11 @@ div.ellipsis {
   vertical-align: top;
 }
 
-#gh-dark-mode-only:target .octicon {
+#kd-dark-mode-01:target .octicon {
+  color: #8b949e;
+  fill: #8b949e;
+}
+#kd-dark-mode-02:target .octicon {
   color: #8b949e;
   fill: #8b949e;
 }
@@ -91,7 +103,10 @@ div.ellipsis {
   margin-bottom: 1em;
 }
 
-#gh-dark-mode-only:target .progress {
+#kd-dark-mode-01:target .progress {
+  background-color: rgba(110, 118, 129, 0.4);
+}
+#kd-dark-mode-02:target .progress {
   background-color: rgba(110, 118, 129, 0.4);
 }
 
@@ -100,7 +115,10 @@ div.ellipsis {
   border-collapse: collapse;
 }
 
-#gh-dark-mode-only:target .progress-item {
+#kd-dark-mode-01:target .progress-item {
+  outline: 2px solid #393f47;
+}
+#kd-dark-mode-02:target .progress-item {
   outline: 2px solid #393f47;
 }
 
@@ -110,7 +128,10 @@ div.ellipsis {
   color: rgb(36, 41, 46);
 }
 
-#gh-dark-mode-only:target .lang {
+#kd-dark-mode-01:target .lang {
+  color: #c9d1d9;
+}
+#kd-dark-mode-02:target .lang {
   color: #c9d1d9;
 }
 
@@ -118,7 +139,10 @@ div.ellipsis {
   color: rgb(88, 96, 105)
 }
 
-#gh-dark-mode-only:target .percent {
+#kd-dark-mode-01:target .percent {
+  color: #8b949e;
+}
+#kd-dark-mode-02:target .percent {
   color: #8b949e;
 }
 </style>
