@@ -1,12 +1,12 @@
-<svg id="kd-dark-mode-02" width="360" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg id="kd-darkmode" width="360" height="200" xmlns="http://www.w3.org/2000/svg">
 <style>
-svg {
+  svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 14px;
   line-height: 21px;
-}
+  }
 
-#background {
+  #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   fill: white;
@@ -14,23 +14,19 @@ svg {
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
-}
+  }
 
-#kd-dark-mode-01:target #background {
-  fill: #0d1117;
-  stroke-width: 0.5px;
-}
-#kd-dark-mode-02:target #background {
-  fill: #1d3658;
+  #kd-darkmode:target #background {
+  fill: #30363D;
   stroke-width: 0;
-}
+  }
 
-foreignObject {
+  foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 24px);
-}
+  }
 
-h2 {
+  h2 {
   margin-top: 0;
   margin-bottom: 0.75em;
   line-height: 24px;
@@ -38,54 +34,45 @@ h2 {
   font-weight: 600;
   color: rgb(36, 41, 46);
   fill: rgb(36, 41, 46);
-}
+  }
 
-#kd-dark-mode-01:target h2 {
-  color: #c9d1d9;
-  fill: #c9d1d9;
-}
-#kd-dark-mode-02:target h2 {
-  color: #c9d1d9;
-  fill: #c9d1d9;
-}
+  #kd-darkmode:target h2 {
+  color: #03DAC5;
+  }
 
-ul {
+  ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-}
+  }
 
-li {
+  li {
   display: inline-flex;
   font-size: 12px;
   margin-right: 2ch;
   align-items: center;
   flex-wrap: nowrap;
-}
+  }
 
-div.ellipsis {
+  div.ellipsis {
   height: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+  }
 
-.octicon {
+  .octicon {
   fill: rgb(88, 96, 105);
   margin-right: 0.5ch;
   vertical-align: top;
-}
+  }
 
-#kd-dark-mode-01:target .octicon {
+  #kd-darkmode:target .octicon {
   color: #8b949e;
   fill: #8b949e;
-}
-#kd-dark-mode-02:target .octicon {
-  color: #8b949e;
-  fill: #8b949e;
-}
+  }
 
-.progress {
+  .progress {
   display: flex;
   height: 8px;
   overflow: hidden;
@@ -93,50 +80,38 @@ div.ellipsis {
   border-radius: 6px;
   outline: 1px solid transparent;
   margin-bottom: 1em;
-}
+  }
 
-#kd-dark-mode-01:target .progress {
+  #kd-darkmode:target .progress {
   background-color: rgba(110, 118, 129, 0.4);
-}
-#kd-dark-mode-02:target .progress {
-  background-color: rgba(110, 118, 129, 0.4);
-}
+  }
 
-.progress-item {
+  .progress-item {
   outline: 2px solid rgb(225, 228, 232);
   border-collapse: collapse;
-}
+  }
 
-#kd-dark-mode-01:target .progress-item {
+  #kd-darkmode:target .progress-item {
   outline: 2px solid #393f47;
-}
-#kd-dark-mode-02:target .progress-item {
-  outline: 2px solid #393f47;
-}
+  }
 
-.lang {
+  .lang {
   font-weight: 600;
   margin-right: 4px;
   color: rgb(36, 41, 46);
-}
+  }
 
-#kd-dark-mode-01:target .lang {
-  color: #c9d1d9;
-}
-#kd-dark-mode-02:target .lang {
-  color: #c9d1d9;
-}
+  #kd-darkmode:target .lang {
+  color: #F8F9FA;
+  }
 
-.percent {
+  .percent {
   color: rgb(88, 96, 105)
-}
+  }
 
-#kd-dark-mode-01:target .percent {
+  #kd-darkmode:target .percent {
   color: #8b949e;
-}
-#kd-dark-mode-02:target .percent {
-  color: #8b949e;
-}
+  }
 </style>
 <g>
 <rect x="5" y="5" id="background" />
