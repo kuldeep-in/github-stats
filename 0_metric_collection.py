@@ -2,10 +2,12 @@ import requests
 import json
 import pandas as pd
 import re
+import os
 
 # Configurable variables
 git_hub_user_name = "kuldeep-in"
-bearer_token = open("token.txt", "r").read()
+bearer_token = os.getenv("ACCESS_TOKEN")
+#open("token.txt", "r").read()
 
 # Read in historic data
 metric_data_views = pd.read_csv ("Metric_Data/views.csv")
