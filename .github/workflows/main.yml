@@ -37,6 +37,7 @@ jobs:
       run: |
         python3 --version
         python3 generate_images.py
+        python3 0_metric_collection.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
