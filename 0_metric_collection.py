@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 # Configurable variables
-git_hub_user_name = "ev2900"
+git_hub_user_name = "kuldeep-in"
 bearer_token = open("token.txt", "r").read()
 
 # Read in historic data
